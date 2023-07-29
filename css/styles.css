@@ -1,1 +1,203 @@
-.benefits .section {}
+/* Base styles */
+:root {
+    --white: #FFFFFF;
+    --iris: #4D5AE5;
+    --navyblue: #2E2F42;
+    --ocean: #404BBF;
+    --slate: #434455;
+    --cloud: #F4F4FD;
+
+
+
+}
+
+.link {
+    text-decoration: none;
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+
+.link-item {
+    list-style: none;
+}
+
+.list {}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+
+}
+
+.logo {
+    color: var(--iris);
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: Raleway;
+}
+
+.logo-header {
+    color: var(--navyblue);
+
+}
+
+
+/* Contacts */
+
+.contacts {}
+
+.contacts-list {
+    list-style: none;
+}
+
+.contacts-list-item {}
+
+.contacts-link {}
+
+
+/* Sections */
+
+.hero-section {
+    background-color: var(--navyblue);
+}
+
+.benefits-section {}
+
+.products-section {}
+
+/* Hero section */
+
+.hero-title {
+    color: var(--white);
+    text-align: center;
+
+    font-family: Roboto;
+
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    font-family: inherit;
+    background: var(--iris);
+}
+
+.hero-button:hover {
+    background: var(--ocean);
+}
+
+/* Benefits styles */
+
+
+.benefits-title {
+    color: var(--navyblue);
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.benefits-list {}
+
+.benefits-list-item {
+    list-style: none;
+}
+
+.benefits-list-subtitle {}
+
+.benefits-list-text {
+    color: var(--slate);
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Produt styles */
+
+.products-title {
+    color: var(--navyblue);
+    text-align: center;
+    /* font-family: Roboto; */
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+}
+
+.products-list {}
+
+.products-list-item {
+    list-style: none;
+}
+
+.products-list-img {}
+
+/* Our team styles */
+
+.team-section {}
+
+.team-title {
+    color: var(--navyblue);
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-list-item {
+    list-style: none;
+}
+
+.team-list-img {}
+
+.team-list-subtitle {
+    color: var(--navyblue);
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-list-text {
+    color: var(--slate);
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.products-list-img {}
+
+/* Footer styles */
+
+.footer-section {
+    background-color: var(--navyblue);
+}
+
+.logo-footer {
+    color: var(--cloud);
+}
+
+.footer-text {
+    color: var(--cloud);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
