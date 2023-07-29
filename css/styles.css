@@ -132,7 +132,7 @@ body {
     /* font-family: Roboto; */
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -197,6 +197,62 @@ body {
 .footer-text {
     color: var(--cloud);
     font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Portfolio css */
+
+/* Button styles */
+.hero-portf-section {}
+
+.hero-portf-title {}
+
+.hero-portf-list {}
+
+.hero-portf-item {
+    list-style: none;
+}
+
+.hero-portf-btn {
+    background: var(--cloud);
+    color: var(--iris);
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-portf-btn:hover,
+.hero-portf-btn:hover {
+    background: var(--ocean);
+    color: var(--white);
+}
+
+/* Projects styles */
+.projects-section {}
+
+.projects-title {}
+
+.projects-list {}
+
+.projects-list-item {
+    list-style: none;
+}
+
+.projects-list-img {}
+
+.projects-subtitle {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.projects-list-text {
+    color: var(--slate);
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
