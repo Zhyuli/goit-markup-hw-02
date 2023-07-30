@@ -12,7 +12,8 @@
     text-decoration: none;
 }
 
-.nav-list-item {
+.nav-list-item,
+.projects-list-item {
     list-style: none;
 }
 
