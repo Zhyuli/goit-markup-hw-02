@@ -63,6 +63,9 @@ body {
 
 
 /* Contacts */
+.contacts {
+    font-style: normal;
+}
 
 .address-menu {
     color: var(--slate);
@@ -74,8 +77,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.contacts:hover,
-.contacts:focus {
+.address-menu:hover,
+.address-menu:focus {
     color: #404bbf
 }
 
