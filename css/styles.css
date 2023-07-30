@@ -13,41 +13,59 @@
 
 .link {
     text-decoration: none;
-    color: var(--slate);
+
+
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-menu {
+    color: var(--navyblue);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    list-style: none;
 }
 
-.link-item {
-    list-style: none;
+.nav-menu:hover,
+.nav-menu:focus {
+    color: #404bbf
 }
 
-.list {}
+
+/* .list {
+    list-style: none;
+} */
 
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: var(--white);
+    color: #434455;
+
 
 }
 
-.logo {
+.logo.link {
     color: var(--iris);
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: Raleway;
+    font-size: 18px;
 }
 
-.logo-header {
+.logo-dark {
     color: var(--navyblue);
 
+}
+
+.logo-light {
+    color: var(--cloud);
 }
 
 
@@ -57,11 +75,26 @@ body {
 
 .contacts-list {
     list-style: none;
+    font-style: normal;
 }
 
 .contacts-list-item {}
 
-.contacts-link {}
+.contacts-link {
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf
+}
+
 
 
 /* Sections */
@@ -81,8 +114,7 @@ body {
     text-align: center;
 
     font-family: Roboto;
-
-    font-style: normal;
+    font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -91,6 +123,12 @@ body {
 .hero-button {
     font-family: inherit;
     background: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
 }
 
 .hero-button:hover {
@@ -98,7 +136,6 @@ body {
 }
 
 /* Benefits styles */
-
 
 .benefits-title {
     color: var(--navyblue);
@@ -114,7 +151,14 @@ body {
     list-style: none;
 }
 
-.benefits-list-subtitle {}
+.benefits-list-subtitle {
+    color: var(--navyblue);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 .benefits-list-text {
     color: var(--slate);
@@ -131,6 +175,7 @@ body {
     text-align: center;
     /* font-family: Roboto; */
     font-weight: 700;
+    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -155,12 +200,15 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    background-color: #F4F4FD;
+    font-size: 36px;
 }
 
 .team-list {}
 
 .team-list-item {
     list-style: none;
+    background-color: #FFFFFF;
 }
 
 .team-list-img {}
@@ -172,6 +220,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    font-size: 20px;
 }
 
 .team-list-text {
@@ -190,9 +239,7 @@ body {
     background-color: var(--navyblue);
 }
 
-.logo-footer {
-    color: var(--cloud);
-}
+
 
 .footer-text {
     color: var(--cloud);
@@ -200,6 +247,8 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
 }
 
 /* Portfolio css */
@@ -222,10 +271,13 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .hero-portf-btn:hover,
-.hero-portf-btn:hover {
+.hero-portf-btn:focus {
     background: var(--ocean);
     color: var(--white);
 }
@@ -235,7 +287,9 @@ body {
 
 .projects-title {}
 
-.projects-list {}
+.projects-list {
+    list-style: none;
+}
 
 .projects-list-item {
     list-style: none;
@@ -256,4 +310,5 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
 }
