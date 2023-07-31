@@ -229,14 +229,13 @@ body {
 }
 
 .footer-text {
-    color: var(--cloud);
+    color: var(--cloud, #F4F4FD);
+    font-family: Roboto;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-
 }
 
 /* Portfolio css */
